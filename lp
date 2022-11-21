@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>火災保険イッカツ</title>
+        <link rel="stylesheet" href="kasai.freecampus.lp.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="profile" href="https://gmpg.org/xfn/11" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="canonical" href="https://www.kasai.freecampus.co.jp/lp/"/>		<!--▼ Favicon ▼-->
+		<link rel="shortcut icon" href="https://www.kasai.freecampus.co.jp/common/images/favicon/favicon.ico">
+		<!-- スマホ用アイコン -->
+		<link rel="apple-touch-icon" sizes="180x180" href="https://www.kasai.freecampus.co.jp//common/images/favicon/apple-touch-icon.png">
+		<!-- Windows用アイコン -->
+		<meta name="application-name" content="火災保険イッカツ"/>
+		<meta name="msapplication-square70x70logo" content="https://www.kasai.freecampus.co.jp//common/images/favicon/msapplication-square70x70logo.jpg"/>
+		<meta name="msapplication-square150x150logo" content="https://www.kasai.freecampus.co.jp//common/images/favicon/msapplication-square150x150logo.jpg"/>
+		<meta name="msapplication-wide310x150logo" content="https://www.kasai.freecampus.co.jp//common/images/favicon/msapplication-wide310x150logo.jpg"/>
+		<meta name="msapplication-square310x310logo" content="https://www.kasai.freecampus.co.jp//common/images/favicon/msapplication-square310x310logo.jpg"/>
+		<meta name="msapplication-TileColor" content="#0071BC"/>
+		<!-- android用タブ色 -->
+		<meta name="theme-color" content="#0071BC">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>
+        var prm;
+        
+        function retrieveGETqs() {
+        
+            var query = window.location.search.substring(1);
+            return query;
+             /* 引数がない時は処理しない */
+            if (!query) return false;
+        
+        }
+        
+        $(function(){
+            jQuery('.url').click(function() {
+        
+            //リンク先を取得
+            var target_url = $(this).attr("href");
+            
+            //パラメータを取得
+            var str = retrieveGETqs();
+            prm = decodeURIComponent(str);
+            
+            if (prm) {
+            //target_urlに'？'を含む場合
+              if (target_url.indexOf('?') != -1) {
+            //追加パラメータの先頭文字列を'&'に置換
+              $('a.url').attr('href', target_url + '&' + prm);
+                } else {
+                  $('a.url').attr('href', target_url + '?' + prm);
+                        }
+                    }	
+          })	
+        })
+        
+        ;//# sourceURL=foobar.js
+        // JavaScript Document
+        </script>
+        <script>
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '5257736504318300');
+            fbq('track', 'PageView');
+            </script>
+            <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=5257736504318300&ev=PageView&noscript=1"
+            /></noscript>
+            <!-- End Meta Pixel Code -->
+            <meta name="facebook-domain-verification" content="6ic5odz7wsw9ewa05h64lhcoximl20" />
+    </head>
+    <body>
+        <div class="pc pc-header-fixed">
+            <a href="#"><img src="images/part_png/logo.png"></a>
+        </div>
+        <div class="sp sp-header-fixed">
+            <a href="#"><img src="images/part_png/logo.png"></a>
+        </div>
+        <div class="top-wrapper">
+        <div class="firstview">
+            <img src="images/part_png/FC1.webp">
+            <h1 class="firstview_title"><small>最大</small><span>19</span>商品を一括比較！<br><span>安</span>くて<span>ピッタリ</span>な火災保険<br>どこよりも<span>早</span>く見つかる</h1>
+            <div class="fv_inslogos">
+                <p>ご利用可能な保険会社例</p>
+                <div class="fv_inslogos_img">
+                    <img src="images/part_png/aioi.png">
+                    <img src="images/part_png/sbisompo.png">
+                    <img src="images/part_png/secomsompo.png">
+                    <img src="images/part_png/sompojapan.png">
+                    <img src="images/part_png/tokyomarine.png">
+                    <img src="images/part_png/mitsuis.png">
+                    <img src="images/part_png/rakuten.png">
+                </div>
+            </div>
+        </div>
+        <div class="quote-point">
+            <img src="images/part_png/FC2.png">
+        </div>
+        <div class="quote-btn">
+            <a class="url" href="https://quote-request.freecampus.co.jp" alt=""><img class="pc" src="images/part_png/FC3_CTA_pc.png"></a>
+            <a class="url" href="https://quote-request.freecampus.co.jp" alt=""><img class="sp" src="images/part_png/FC3_CTA_sp.png"></a>
+        </div>
+        <script>  window.addEventListener("scroll", function () {
+            const topBtn = document.getElementById("float-btn");
+            const scroll = window.pageYOffset;
+            if (scroll > 500) {
+              topBtn.style.opacity = 0.9;
+            } else topBtn.style.opacity = 0; 
+          });
+          </script>
+        <div class="float-btn" id="float-btn">
+             <a class="url" href="https://quote-request.freecampus.co.jp" alt=""><img class="pc" src="images/part_png/FC_squareCTA_pc.webp"></a>
+             <a class="url" href="https://quote-request.freecampus.co.jp" alt=""><img class="sp" src="images/part_png/FC3_CTA_sp.webp"></a>
+        </div>
+      </div>  
+        <div class="content1">
+            <img class="pc" src="images/part_png/FC4_pc.png" alt="当てはまる方は一度お見積もりください。一括見積して良かった！">
+            <img class="sp" src="images/part_png/FC4_sp.png">
+                <img class="pc sp" src="images/part_png/pan_tool_alt.png"><p class="pc sp content1_text1_1">家を建てたときに勧められている火災保険にそのまま加入しようか検討している</p>
+                <img class="pc sp" src="images/part_png/pan_tool_alt.png"><p class="pc sp content1_text1_2">補償の適切な内容や金額がわからないのでずっと補償の見直しはしていない</p>
+                <p class="pc sp content1_text_2">我が家は高台にあるのに、水災の補償は外せないと担当者から言われました…。<br>一括見積もりをしたら希望の保険が見つかって<b>10万円以上安く加入できました！</b></p>
+                <p class="pc sp content1_text_3">家を建てたときの不動産屋さん経由で紹介してもらった火災保険が思いのほか高額で加入に迷っていましたが、一括見積もりをしたら<b>1/3の保険料で契約できました。</b></p>
+        </div>
+        <div class="content2">
+            <h2><img class="content2_title" src="images/part_png/FC5_title1.png"></h2>
+            <div class="content2_icons">
+                <img src="images/part_png/icon_fire_disaster.png">
+                <img src="images/part_png/icon_water_disaster.png">
+                <img src="images/part_png/icon_wind_disaster.png">
+                <img src="images/part_png/icon_thunder_disaster.png">
+                <img src="images/part_png/icon_snow_disaster.png">
+            </div>
+            <p class="content2_text">火災保険は、『火災』による被害を補償するだけではありません。<br>『風災』『水災』『雪災』『落雷』など、住宅の万が一に幅広く備えることのできる保険です。</p>
+            <h2><img class="content2_title" src="images/part_png/FC5_title2.png"></h2>
+                <img src="images/part_png/icon_sofa.png">
+                <img src="images/part_png/icon_tv.png">
+                <img src="images/part_png/icon_microwave.png">
+            <div class="content2_icons2">
+                <p>火災保険は、家具や家電などの『家財』も補償に含めることができます。<br>
+                    火災や浸水などによる故障だけではなく、例えば「子どもが物を投げてTVの画面を割ってしまった」などの場合も補償の対象です。<br>
+                    火災保険を選ぶ際は『家財』の補償も検討してみましょう。</p>
+            </div>
+            <img class="content2_footer" src="images/part_png/FC5_footer.png">
+        </div>
+        <div class="content3">
+            <h2>こんな<span>お悩み</span>ありませんか？</h2>
+            <div class="content3_images">
+                <img src="images/part_png/FC8_man1.png">
+                <img src="images/part_png/FC8_woman1.png">
+                <img src="images/part_png/FC8_man2.png">
+            </div>
+            <h3>該当する方は<span>ご相談</span>ください！</h3>
+        </div>
+        <div class="content4">
+            <h2><img src="images/part_png/FC8_title.png"></h2>
+            <div class="content4_feature1">
+                <img src="images/part_png/feature_01.png">
+                <h3>入力３分で最短当日の見積もり</h3>
+                <p>ご依頼が12時までなら、最短当日中にお見積もり可能！<br>
+                    お急ぎのときでもしっかりと保険内容を比較いただけます。<br>
+                    ※12時以降のご依頼は、翌日以降の見積もりとなることがあります。<br>
+                    ※当日対応をご希望の場合は、一度お電話でご確認をお願いします。
+                    </p>
+            </div>
+            <div class="content4_feature2">
+                <h3>複数社の商品をご提案・比較</h3>
+                <p>当サイトで比較可能な保険商品は19商品！<br>
+                    複数の保険商品のなかから比較することができ、最適・最安な保険をご選択いただけます。
+                    </p>
+                <img src="images/part_png/feature_02.png">
+            </div>
+            <div class="content4_feature3">
+                <img src="images/part_png/feature_03.png">
+                <h3>保険の専門家が丁寧に対応</h3>
+                <p>保険は、安ければ良いものではありません！しかし補償をただ厚くするだけでは保険料は高くなります。<br>
+                    補償されていない災害で思わぬ被害にあってしまわないように、保険のプロが最適な補償内容で最安な保険をご案内します。
+                </p>
+            </div>
+        </div>
+        <div class="customer-voice">
+            <h2><img src="images/part_png/FC9_title.png"></h2>
+            <div class="cv1">
+                <div class="cv1_upper">
+                    <img src="images/part_png/FC8_woman1.png">
+                    <h3>わかりやすい説明で助かりました！</h3>
+                    <p>（保険内容の見直し・39歳・I様）</p>
+                </div>
+                <div class="cv1_lower">
+                    <p>火災保険は保険会社によって保険料に差があるのは何となくわかっていましたが、被害を受けた時に補償される範囲も異なり、受取れる保険金にも大きな差があることを説明を受けて初めて知りました。 保険料を安く抑えられたのに、こちらが必要と思う補償をつけた火災保険の提案を受けられて安心しました。</p>
+                </div>
+            </div>
+            <div class="cv2">
+                <div class="cv2_upper">
+                    <img src="images/part_png/FC8_man1.png">
+                    <h3>良心的な金額で非常に満足です！</h3>
+                    <p>（保険内容のご説明・40歳代ご夫婦・S様）</p>
+                </div>
+                <div class="cv2_lower">
+                    <p>不動産から紹介された行政書士に火災保険の紹介を受けましたが、非常に高かったです。火災保険の事がよくわからず、時間もなかったため60万近くで提案を受けていた火災保険に加入をしようか迷っていましたが、20万くらいの金額で契約ができ非常に満足です。</p>
+                </div>
+            </div>
+            <div class="cv3">
+                <div class="cv3_upper">
+                    <img src="images/part_png/FC8_man2.png">
+                    <h3>安心できる対応でした！</h3>
+                    <p>（保険内容のご説明・64歳・C様）</p>
+                </div>
+                <div class="cv3_lower">
+                    <p>仕事の時間が不規則なので、火災保険選びを保険を扱っている店舗に行く時間が取れなかったのでインターネットで請求しましたが、この先数十年住む家の火災保険をインターネットに頼るのは本当は不安でした。担当者が職場近くまで来てくれて、昼休みに複数社の説明を聞く事ができて安心して契約が出来ました。</p>
+                </div>
+            </div>
+        </div>
+        <div class="flow">
+            <h2><img src="images/part_png/FC9_title.png"></h2>
+            <div class="flow_1">
+                <img src="images/part_png/flow01.png">
+                <div class="flow_right">
+                    <h3>01.見積もり情報の入力</h3>
+                    <p>見積もり条件をフォームに<br>
+                        入力して一括見積もり<br>
+                        ご入力は最短3分でかんたん！</p>
+                    <hr class="flow_line">
+                    </div>
+            </div>
+            <div class="flow_nextarrow"></div>
+            <div class="flow_2">
+                <img src="images/part_png/flow02.png">
+                <div class="flow_right">
+                    <h3>02.電話で詳細なご希望内容の確認</h3>
+                    <p>保険のプロより丁寧なヒアリングし、<br>
+                        最適な補償内容になるように<br>
+                        プランを作成します</p>
+                        <hr class="flow_line">
+                    </div>
+            </div>
+            <div class="flow_nextarrow"></div>
+            <div class="flow_3">
+                <img src="images/part_png/flow03.png">
+                <div class="flow_right">
+                    <h3>03.複数社の見積もりを比較</h3>
+                    <p>最大19の保険商品を見比べた上で<br>
+                        最適、かつ最安の保険を選択できます<br>
+                        ご入力は最短3分でかんたん！</p>
+                        <hr class="flow_line">
+                </div>
+            <p>※保険への加入は任意です。無理な勧誘は一切ありません。</p>
+            </div>
+         </div>
+        <div class="FAQ">
+            <h2><img src="images/part_png/FC10_title.png"></h2>
+            <div class="FAQ1">
+                <img src="images/part_png/Question.png">
+                <h3>見積もりは無料ですか？</h3>
+                <p>お見積もり・ご相談は一切無料です。<br>
+                安心してお問い合わせください。</p>
+            </div>
+            <div class="FAQ2">
+                <img src="images/part_png/Question.png">
+                <h3>見積もりは無料ですか？</h3>
+                <p>お見積もり・ご相談は一切無料です。<br>
+                安心してお問い合わせください。</p>
+            </div>
+            <div class="FAQ3">
+                <img src="images/part_png/Question.png">
+                <h3>見積もりは無料ですか？</h3>
+                <p>お見積もり・ご相談は一切無料です。<br>
+                安心してお問い合わせください。</p>
+            </div>
+            <div class="FAQ4">
+                <img src="images/part_png/Question.png">
+                <h3>見積もりは無料ですか？</h3>
+                <p>お見積もり・ご相談は一切無料です。<br>
+                安心してお問い合わせください。</p>
+            </div>
+        </div>
+      </div>
+    </body>
+    <footer>
+        <div class="caution-title">
+            <h1>ご利用の注意</h1>
+        </div>
+        <div class="caution-detail">
+            <p>フリーキャンパス合同会社（以下、当社）が運営する「火災保険イッカツ」（以下、当サイト）では、火災保険の見積もりを依頼することができます。<br/>
+                当社は火災保険の媒介・募集・販売行為は行いません。<br/>
+                当サイトにご入力いただいたお客様の情報は、[利用規約]に定める利用目的にて利用させていただきます。<br/>
+                なお、ご案内の際に診断ができない等、お断りさせていただく場合もございます。<br/>
+                正確な見積もり提示のために、さらに物件情報や補償内容についての詳しい情報をお伺いする場合がございます。</p>
+        </div>
+        <div class="corporate-info">
+            <img class="logo" src="https://www.kasai.freecampus.co.jp/lp2/images/freecampus-logo.png">
+            <h3>フリーキャンパス合同会社</h3>
+            <a href="https://freecampus.co.jp/company/" target="_blank">会社概要</a>
+            <a href="https://freecampus.co.jp/terms" target="_blank">利用規約</a>
+            <a href="https://freecampus.co.jp/policy/" target="_blank">プライバシーポリシー</a>
+        </div>
+
+    </footer>
+
+
+</html>
