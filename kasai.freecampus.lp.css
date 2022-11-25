@@ -454,7 +454,7 @@ a {
     font-size: 1.25em;
 }
 .flow_right p {
-    margin-left: min(27.3vw,350px);
+    margin-left: min(25vw,320px);
     font-size: min(1.95vw,25px);
     margin-bottom: min(1.64vw,21px);
 }
