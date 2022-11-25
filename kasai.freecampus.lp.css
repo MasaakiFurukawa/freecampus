@@ -626,10 +626,10 @@ footer{
         line-height: 111%;
     }
     .float-btn {
-        margin-right: min(2.5vw,18.75px);
+        margin: 0 min(2.5vw,125px);
     }
     .float-btn img,.quote-btn img {
-        width: min(95vw,500px);
+        width: 100%;
     }
     .content1_text1 {
         position: absolute;
