@@ -625,7 +625,7 @@ footer{
         top: min(5.6vw,29.4px);
         line-height: 111%;
     }
-    .quote-btn.float-btn {
+    .quote-btn.,float-btn {
         margin: 0 min(2.5vw,125px);
     }
     .float-btn img,.quote-btn img {
